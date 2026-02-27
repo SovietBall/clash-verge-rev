@@ -29,6 +29,15 @@
   "productName": "Clash Verge",
   "identifier": "io.github.clash-verge-rev.clash-verge-rev",
   "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDRERTIwQjk0RTU0QjM0MEMKUldRTU5FdmxsQXZpVFdLbnZUSklOaTZoZVlGa0pYbU5VZDNIRGpUMkh6eXdPNjByNXlCVDBkbysK",
+      "endpoints": [
+        "https://github.com/clash-verge-rev/clash-verge-rev/releases/download/updater/update.json"
+      ],
+      "windows": {
+        "installMode": "basicUi"
+      }
+    },
     "deep-link": {
       "desktop": {
         "schemes": ["clash", "clash-verge"]
