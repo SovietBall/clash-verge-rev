@@ -54,4 +54,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Clash-Verge-Rev-Windows
-          path: src-tauri/target/release/bundle/msi
+          path: target/release/bundle/nsis
